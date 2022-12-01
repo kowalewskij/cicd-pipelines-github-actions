@@ -35,7 +35,7 @@ jobs:
     uses: ./.github/workflows/build_deploy_reusable.yml
     with:
       CLOUDHUB_ENVIRONMENT: "qa-01"
-      GITHUB_ENVIRONMENT: "dev"      
+      GITHUB_ENVIRONMENT: "qa"      
       CLOUDHUB_WORKERS: "1"
       CLOUDHUB_WORKER_TYPE: "MICRO"
       CLOUDHUB_REGION: "ca-central-1"
