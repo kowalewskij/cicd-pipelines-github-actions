@@ -10,7 +10,7 @@ env:
   ## Cloudhub Properties
   CLOUDHUB_WORKERS: 1
   CLOUDHUB_WORKER_TYPE: MICRO
-  CLOUDHUB_REGION: us-east-01  
+  CLOUDHUB_REGION: us-east-1  
 
   ## API specific 
   HTTP_PRIVATE_PORT: 8091  
@@ -23,7 +23,7 @@ jobs:
       GITHUB_ENVIRONMENT: "dev"      
       CLOUDHUB_WORKERS: "1"
       CLOUDHUB_WORKER_TYPE: "MICRO"
-      CLOUDHUB_REGION: "ca-central-1"
+      CLOUDHUB_REGION: "us-east-1"
       HTTP_PRIVATE_PORT: "8091"
     secrets:
       CLOUDHUB_USERNAME: ${{ secrets.CLOUDHUB_USERNAME }}        
@@ -38,7 +38,7 @@ jobs:
       GITHUB_ENVIRONMENT: "qa"      
       CLOUDHUB_WORKERS: "1"
       CLOUDHUB_WORKER_TYPE: "MICRO"
-      CLOUDHUB_REGION: "ca-central-1"
+      CLOUDHUB_REGION: "us-east-1"
       HTTP_PRIVATE_PORT: "8091"
     secrets:
       CLOUDHUB_USERNAME: ${{ secrets.CLOUDHUB_USERNAME }}    
