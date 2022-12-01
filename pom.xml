@@ -177,7 +177,7 @@
 		<connection>scm:git@github.com:kowalewskij/cicd-pipelines-github-actions.git</connection>
 		<url>scm:git:https://github.com/kowalewskij/cicd-pipelines-github-actions.git</url>
     	        <developerConnection>scm:git:https://github.com/kowalewskij/cicd-pipelines-github-actions.git</developerConnection>
-    	        <tag>pub-common-health-check-1.0.9</tag>
+    	        <tag>pub-common-health-check-1.0.19</tag>
     </scm>	
 
 	<distributionManagement>
