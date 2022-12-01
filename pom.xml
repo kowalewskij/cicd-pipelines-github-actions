@@ -173,18 +173,18 @@
 		</pluginRepository>
 	</pluginRepositories>
 
-        <scm>
-		<connection>scm:git:https://github.com/naaab/github-action-mule.git</connection>
-		<url>scm:git:https://github.com/naaab/github-action-mule.git</url>
-    	        <developerConnection>scm:git:https://github.com/naaab/github-action-mule.git</developerConnection>
+    <scm>
+		<connection>scm:git@github.com:kowalewskij/cicd-pipelines-github-actions.git</connection>
+		<url>scm:git:https://github.com/kowalewskij/cicd-pipelines-github-actions.git</url>
+    	        <developerConnection>scm:git:https://github.com/kowalewskij/cicd-pipelines-github-actions.git</developerConnection>
     	        <tag>pub-common-health-check-1.0.9</tag>
-        </scm>	
+    </scm>	
 
 	<distributionManagement>
 		<repository>
 			<id>github</id>
 			<name>github</name>
-			<url>https://maven.pkg.github.com/naaab/github-action-mule</url>  
+			<url>https://github.com/kowalewskij/cicd-pipelines-github-actions</url>  
 		</repository>
 	</distributionManagement>
 </project>
