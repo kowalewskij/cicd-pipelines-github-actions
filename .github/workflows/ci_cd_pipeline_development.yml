@@ -8,7 +8,7 @@ on:
 
 env:
   ## Cloudhub Properties
-  CLOUDHUB_WORKERS: 2
+  CLOUDHUB_WORKERS: 1
   CLOUDHUB_WORKER_TYPE: MICRO
   CLOUDHUB_REGION: us-east-01  
 
