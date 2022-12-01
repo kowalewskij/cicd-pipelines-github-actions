@@ -172,4 +172,19 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
+	
+	 <scm>
+		<connection>scm:git:https://github.com/naaab/github-action-mule.git</connection>
+		<url>scm:git:https://github.com/naaab/github-action-mule.git</url>
+    	        <developerConnection>scm:git:https://github.com/naaab/github-action-mule.git</developerConnection>
+    	        <tag>pub-common-health-check-1.0.9</tag>
+        </scm>	
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>github</name>
+			<url>https://maven.pkg.github.com/naaab/github-action-mule</url>  
+		</repository>
+	</distributionManagement>
 </project>
